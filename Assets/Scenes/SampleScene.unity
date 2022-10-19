@@ -123,6 +123,57 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &212191093
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 212191094}
+  - component: {fileID: 212191095}
+  m_Layer: 0
+  m_Name: GateInitializer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &212191094
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212191093}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 575601680}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &212191095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212191093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb7ef7d1f56b11343a96e5a98093ff72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gameData: {fileID: 11400000, guid: 82cb20aa2a4e4954c93307874f711d55, type: 2}
+  _innerBlock: {fileID: 4584219332119693546, guid: 332783dfd056b4a4faf1156835c42423, type: 3}
+  _outerBlock: {fileID: 1717576593263342466, guid: 9776debb744f661409ffbfb0e3ed1ef8, type: 3}
+  _distanceBetweenGates: 10
+  _gateData:
+  - EmptyBlocks:
+    - {x: 0, y: 1, z: 2}
 --- !u!1 &245540324
 GameObject:
   m_ObjectHideFlags: 0
@@ -253,6 +304,7 @@ Transform:
   - {fileID: 1687258585}
   - {fileID: 1436721473}
   - {fileID: 441592837}
+  - {fileID: 212191094}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -558,6 +610,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _cubePrefab: {fileID: 2282249559266789599, guid: ae69e82d1ecf8c841b3f4358a1cc7e72, type: 3}
+  _gameData: {fileID: 11400000, guid: 82cb20aa2a4e4954c93307874f711d55, type: 2}
   _playerTransform: {fileID: 1896417742}
   _form:
   - {x: 0, y: 0, z: 0}
@@ -566,7 +619,7 @@ MonoBehaviour:
   - {x: 0, y: 3, z: 0}
   - {x: 0, y: 4, z: 0}
   - {x: 1, y: 2, z: 0}
-  - {x: -1, y: 2, z: 0}
+  - {x: -5, y: 2, z: 0}
   _cubeScale: 0.2
 --- !u!1 &1655600325
 GameObject:
