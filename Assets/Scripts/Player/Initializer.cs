@@ -11,8 +11,6 @@ namespace Trell.Unavinar_TZ.Player
 		[SerializeField] private Transform _playerTransform;
 		[SerializeField] private Vector3[] _form;
 
-		[SerializeField] private float _cubeScale = 0.2f;
-
 		private void Awake()
         {
 			Initialize();
@@ -20,7 +18,7 @@ namespace Trell.Unavinar_TZ.Player
 
 		private void Initialize()
         {
-			int maxWidth = (int)(_cubeScale / 2);
+			int maxWidth = _gameData.MaxFormSize.x / 2;
 
 			foreach(var cubePosition in _form)
             {
@@ -29,10 +27,14 @@ namespace Trell.Unavinar_TZ.Player
 
 				if(absX > maxWidth || cubePosition.y > _gameData.MaxFormSize.y || absZ > maxWidth)
                 {
-					return;
+					print(absX);
+					print(cubePosition.y);
+					print(absZ);
+					print(maxWidth);
+					continue;
                 }
 
-				Instantiate(_cubePrefab, cubePosition * _cubeScale, Quaternion.identity, _playerTransform);
+				Instantiate(_cubePrefab, (cubePosition * _gameData.CubeSize) + _playerTransform.position, Quaternion.identity, _playerTransform);
             }
         }
 	}

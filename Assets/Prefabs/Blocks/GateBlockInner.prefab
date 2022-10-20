@@ -55,9 +55,55 @@ PrefabInstance:
       propertyPath: m_Name
       value: GateBlockInner
       objectReference: {fileID: 0}
+    - target: {fileID: 6658103301124824914, guid: 161c376abe5f1354eb4086a548458299, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658103301124824914, guid: 161c376abe5f1354eb4086a548458299, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7914671686129050127, guid: 161c376abe5f1354eb4086a548458299, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8045539897054524620, guid: 161c376abe5f1354eb4086a548458299, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6d8ff9a2a3fe6424b91502038250c5a4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 161c376abe5f1354eb4086a548458299, type: 3}
+--- !u!1 &4584219332119693546 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6658103301124824914, guid: 161c376abe5f1354eb4086a548458299, type: 3}
+  m_PrefabInstance: {fileID: 7203576446434908088}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &-3716482724661823251
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4584219332119693546}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &5515369081902381446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4584219332119693546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1460f3a050bcddc4ca2cb77fcf39fd95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rg: {fileID: -3716482724661823251}
