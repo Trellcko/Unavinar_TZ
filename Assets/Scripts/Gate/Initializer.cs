@@ -1,16 +1,18 @@
-using System;
 using System.Collections.Generic;
 using Trell.Unavinar_TZ.Core;
 using UnityEngine;
 
 namespace Trell.Unavinar_TZ.Gate
 {
-	[AddComponentMenu("Gates Initializer")]
+    [AddComponentMenu("Gates Initializer")]
 	public class Initializer : MonoBehaviour
 	{
 		[SerializeField] private GameData _gameData;
 		[SerializeField] private GameObject _innerBlock;
 		[SerializeField] private GameObject _outerBlock;
+
+		[SerializeField] private Transform _startPoint;
+		[SerializeField] private Transform _gamePlay;
 
 		[Min(1)]
 		[SerializeField] private float _distanceBetweenGates = 10f;
@@ -24,38 +26,53 @@ namespace Trell.Unavinar_TZ.Gate
 
         private void Initialize()
         {
-			int maxX = _gameData.MaxFormSize.x / 2;
+			int maxz = _gameData.MaxFormSize.x / 2;
 			int maxY = _gameData.MaxFormSize.y;
 
-			foreach (var gateData in _gateData)
-			{
-				for (int x = -maxX; x <= maxX; x++)
-				{
-					for (int y = 0; y <= maxY; y++)
-					{
-						GameObject block = _innerBlock;
-						Vector3 position = new Vector3(0, y, x);
+			for(int  i = 0; i < _gateData.Count; i++)
+            {
+                Transform gate = SpawnGateGO(i);
 
-						if (x == -maxX || x == maxX || y == maxY)
-						{
-							block = _outerBlock;
-						}
+                for (int z = -maxz; z <= maxz; z++)
+                {
+                    for (int y = 0; y <= maxY; y++)
+                    {
+                        Vector3 position = new Vector3(0, y, z);
 
-						else if(gateData.EmptyBlocks.Contains(position))
+                        if (_gateData[i].EmptyBlocks.Contains(position))
                         {
-							continue;
+                            continue;
                         }
 
-						Instantiate(block, new Vector3(0, y, x) * _gameData.CubeSize, Quaternion.identity);
-					}
-				}
-			}
-		}
-    }
+                        position += gate.position;
+                        SpawnBlock(maxz, maxY, gate, position);
+                    }
+                }
+            }
+        }
 
-	[Serializable]
-	public class GateData
-    {
-		[field: SerializeField] public List<Vector3> EmptyBlocks;
+        private GameObject SpawnBlock(int maxz, int maxY, Transform parent, Vector3 position)
+        {
+            GameObject block = _innerBlock;
+
+            if (position.z == -maxz || position.z == maxz || position.y == maxY)
+            {
+                block = _outerBlock;
+            }
+
+            Vector3 spawnPosition = new Vector3(position.x, position.y * _gameData.CubeSize, position.z * _gameData.CubeSize);
+
+            return Instantiate(block, spawnPosition, Quaternion.identity, parent);
+        }
+
+        private Transform SpawnGateGO(int i)
+        {
+            GameObject gate = new GameObject("Gate (" + i + ")");
+
+            gate.transform.parent = _gamePlay;
+
+            gate.transform.position = new Vector3(_startPoint.position.x - _distanceBetweenGates * (i + 1), 0, 0);
+            return gate.transform;
+        }
     }
 }

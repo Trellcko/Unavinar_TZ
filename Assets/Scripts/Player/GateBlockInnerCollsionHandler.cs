@@ -49,7 +49,7 @@ namespace Trell.Unavinar_TZ.Player
 
         private void OnGateBlockInnerCollided(Vector3 normal, GameObject other)
         {
-            if (other.TryGetComponent(out Gate.Block.Pusher gateBlock))
+            if (other.TryGetComponent(out Pusher gateBlock))
             {
                 if (gateBlock.WasPushed == false)
                 {
