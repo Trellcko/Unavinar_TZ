@@ -8,5 +8,7 @@ namespace Trell.Unavinar_TZ.Core
 		[field: SerializeField] public float CubeSize { get; private set; } = 0.2f;
 
 		[field: SerializeField] public Vector2Int MaxFormSize { get; private set; } = new Vector2Int(7, 9);
+
+		[field: SerializeField] public float DistanceBetweenGates { get; private set; } = 4f;
 	}
 }

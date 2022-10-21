@@ -14,9 +14,6 @@ namespace Trell.Unavinar_TZ.Gate
 		[SerializeField] private Transform _startPoint;
 		[SerializeField] private Transform _gamePlay;
 
-		[Min(1)]
-		[SerializeField] private float _distanceBetweenGates = 10f;
-
 		[NonReorderable]
 		[SerializeField] private List<GateData> _gateData;
 		private void Awake()
@@ -71,7 +68,7 @@ namespace Trell.Unavinar_TZ.Gate
 
             gate.transform.parent = _gamePlay;
 
-            gate.transform.position = new Vector3(_startPoint.position.x - _distanceBetweenGates * (i + 1), 0, 0);
+            gate.transform.position = new Vector3(_startPoint.position.x - _gameData.DistanceBetweenGates * (i + 1), 0, 0);
             return gate.transform;
         }
     }

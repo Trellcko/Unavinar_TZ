@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Trell.Unavinar_TZ.Player
@@ -6,6 +7,8 @@ namespace Trell.Unavinar_TZ.Player
 	{
 		[Min(1)]
 		[SerializeField] private float _rotatePower = 1f;
+
+		public event Action RotationFixed;
 
 		private Quaternion _roundingRotation;
 
@@ -16,6 +19,11 @@ namespace Trell.Unavinar_TZ.Player
 			if (_doRotateToNearestSide)
 			{
 				transform.rotation = Quaternion.RotateTowards(transform.rotation, _roundingRotation, Time.deltaTime * _rotatePower);
+				if (transform.rotation == _roundingRotation)
+                {
+					RotationFixed?.Invoke();
+					_doRotateToNearestSide = false;
+                }
 			}
 		}
 
