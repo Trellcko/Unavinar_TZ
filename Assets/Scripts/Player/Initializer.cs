@@ -1,18 +1,22 @@
 using Trell.Unavinar_TZ.Core;
 using UnityEngine;
+using Trell.Unavinar_TZ.Player.Block;
 
 namespace Trell.Unavinar_TZ.Player
 {
 	[AddComponentMenu("Player Initializer")]
 	public class Initializer : MonoBehaviour
 	{
-		[SerializeField] private GameObject _cubePrefab;
+		[SerializeField] private CollisionEvents _cubePrefab;
 		[SerializeField] private GameData _gameData;
-		[SerializeField] private Transform _playerTransform;
+		[SerializeField] private Player.GateBlockInnerCollsionHandler _playerCollisionHandler;
 		[SerializeField] private Vector3[] _form;
+
+		private Transform _platerTransform;
 
 		private void Awake()
         {
+			_platerTransform = _playerCollisionHandler.transform;
 			Initialize();
         }
 
@@ -27,15 +31,13 @@ namespace Trell.Unavinar_TZ.Player
 
 				if(absX > maxWidth || cubePosition.y > _gameData.MaxFormSize.y || absZ > maxWidth)
                 {
-					print(absX);
-					print(cubePosition.y);
-					print(absZ);
-					print(maxWidth);
 					continue;
                 }
 
-				Instantiate(_cubePrefab, (cubePosition * _gameData.CubeSize) + _playerTransform.position, Quaternion.identity, _playerTransform);
-            }
+			 CollisionEvents collisionEvents =	Instantiate(_cubePrefab, (cubePosition * _gameData.CubeSize) + _platerTransform.position, Quaternion.identity, _platerTransform);
+
+			_playerCollisionHandler.AddCollisionEvents(collisionEvents);
+			}
         }
 	}
 }

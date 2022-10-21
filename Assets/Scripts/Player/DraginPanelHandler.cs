@@ -6,7 +6,7 @@ namespace Trell.Unavinar_TZ.Player
 	[AddComponentMenu("Player Draging Panel Handler")]
 	public class DraginPanelHandler : MonoBehaviour
 	{
-		[SerializeField] private DraggingPanel _draggingPanel;
+		[SerializeField] private DragingPanel _draggingPanel;
 		[SerializeField] private Rotater _rotator;
 
         private float _previousX = 0;
@@ -29,7 +29,7 @@ namespace Trell.Unavinar_TZ.Player
 
         public void Update()
         {
-            if(_draggingPanel.IsDragging)
+            if(_draggingPanel.IsDraging)
             {
                 float x = _draggingPanel.CurrentPosition.x - _previousX;
                 _rotator.Rotate(x);

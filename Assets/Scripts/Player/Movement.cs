@@ -1,37 +1,29 @@
 using UnityEngine;
 
-namespace Trell
+namespace Trell.Unavinar_TZ.Player
 {
+    [RequireComponent(typeof(Rigidbody))]
 	public class Movement : MonoBehaviour
 	{
-		Rigidbody _rigidbody;
+        [SerializeField] private float _speed = 0.5f;
+        [SerializeField] private float _pushPower = 0.25f;
 
-        Vector3 _speed = Vector3.left*0.5f;
-
-        private bool _isPushingThisFrame = false;
+        private Vector3 _direction = Vector3.left;
+        private Rigidbody _rigidbody;
 
         private void Awake()
         {
             _rigidbody = GetComponent<Rigidbody>();
         }
 
-        private void Update()
-        {
-            _isPushingThisFrame = false;
-        }
-
         private void FixedUpdate()
         {
-            _rigidbody.AddForce(_speed * Time.fixedDeltaTime, ForceMode.VelocityChange);
+            _rigidbody.AddForce(_direction * _speed * Time.fixedDeltaTime, ForceMode.VelocityChange);
         }
 
         public void PushBack()
         {
-            if (_isPushingThisFrame == false)
-            {
-                _isPushingThisFrame = true;
-                _rigidbody.velocity = Vector3.right * 0.5f;
-            }
+            _rigidbody.velocity = -_direction * _pushPower;
         }
     }
 }

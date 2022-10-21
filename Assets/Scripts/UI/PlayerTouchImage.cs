@@ -6,7 +6,7 @@ namespace Trell.Unavinar_TZ.UI
     [RequireComponent(typeof(Image))]
     public class PlayerTouchImage : MonoBehaviour
     {
-        [SerializeField] private DraggingPanel _draggingPanel;
+        [SerializeField] private DragingPanel _draggingPanel;
 
         private Image _image;
 
@@ -29,7 +29,7 @@ namespace Trell.Unavinar_TZ.UI
 
         private void Update()
         {
-            if(_draggingPanel.IsDragging)
+            if(_draggingPanel.IsDraging)
             {
                 transform.position = _draggingPanel.CurrentPosition;
             }

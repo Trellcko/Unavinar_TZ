@@ -61,7 +61,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6658103301124824914, guid: 161c376abe5f1354eb4086a548458299, type: 3}
       propertyPath: m_TagString
-      value: Player
+      value: GateBlockInner
       objectReference: {fileID: 0}
     - target: {fileID: 7914671686129050127, guid: 161c376abe5f1354eb4086a548458299, type: 3}
       propertyPath: m_IsTrigger
@@ -94,6 +94,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-511331869912533593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4584219332119693546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4288b23975adab54880e82a21f27d4e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerBlockTag: PlayerBlock
+--- !u!114 &4872608647885391119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4584219332119693546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c730ac52be00d0f44b07ef1ddd4f0e87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _newTag: Untagged
+  _collisionEvents: {fileID: -511331869912533593}
 --- !u!114 &5515369081902381446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103,7 +130,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 4584219332119693546}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1460f3a050bcddc4ca2cb77fcf39fd95, type: 3}
+  m_Script: {fileID: 11500000, guid: 8ef6342e0ee5ddc4d99b9c9d78f64342, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rg: {fileID: -3716482724661823251}

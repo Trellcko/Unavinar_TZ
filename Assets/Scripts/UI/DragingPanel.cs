@@ -7,11 +7,11 @@ using UnityEngine.UI;
 namespace Trell.Unavinar_TZ.UI
 {
     [RequireComponent(typeof(Image))]
-    public class DraggingPanel : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
+    public class DragingPanel : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
     {
         public Vector3 CurrentPosition { get; private set; }
 
-        public bool IsDragging { get; private set; }
+        public bool IsDraging { get; private set; }
 
         public Vector3 DeltaPosition { get; private set; }
 
@@ -21,7 +21,7 @@ namespace Trell.Unavinar_TZ.UI
 
         public void OnBeginDrag(PointerEventData eventData)
         {
-            IsDragging = true;
+            IsDraging = true;
             CurrentPosition = eventData.pointerPressRaycast.screenPosition;
             DragBegined?.Invoke();
         }
@@ -37,7 +37,7 @@ namespace Trell.Unavinar_TZ.UI
         public void OnEndDrag(PointerEventData eventData)
         {
             DragEnded?.Invoke();
-            IsDragging = false;
+            IsDraging = false;
         }
     }
 }
