@@ -11,6 +11,7 @@ namespace Trell.Unavinar_TZ.Player
 		[SerializeField] private Rotater _rotator;
         [SerializeField] private BlockContainer _blockContainer;
         [SerializeField] private Movement _movement;
+        [SerializeField] private ScoreCounter _scoreCounter;
 
         private float _previousX = 0;
 
@@ -33,6 +34,7 @@ namespace Trell.Unavinar_TZ.Player
 
         private void OnDragBegined()
         {
+            _scoreCounter.TurnOffCounting();
             _rotator.StopRotateToNearesSide();
             _movement.ResetSpeed();
             _blockContainer.StopVisualEffects();

@@ -11,6 +11,7 @@ namespace Trell.Unavinar_TZ.Player
         [SerializeField] private Movement _movement;
         [SerializeField] private BlockContainer _blockContainer;
         [SerializeField] private float _pushBlockPower;
+        [SerializeField] private ScoreCounter _scoreCounter;
 
         private bool _isPushedThisFrame = false;
 
@@ -58,6 +59,7 @@ namespace Trell.Unavinar_TZ.Player
 
                     if (_isPushedThisFrame == false)
                     {
+                        _scoreCounter.BlockModifier();
                         _movement.ResetSpeed();
                         _movement.PushBack();
                         _isPushedThisFrame = true;

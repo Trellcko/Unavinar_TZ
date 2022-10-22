@@ -29,16 +29,23 @@ namespace Trell.Unavinar_TZ.Player
 
         private void FixedUpdate()
         {
-            _rigidbody.AddForce(_direction * _speedChange * Time.fixedDeltaTime, ForceMode.VelocityChange);
+            _rigidbody.AddForce(_direction * _currentSpeedChange * Time.fixedDeltaTime, ForceMode.VelocityChange);
 
-            if (_rigidbody.velocity.magnitude < _normalSpeed)
+            if (_rigidbody.velocity.x > -_normalSpeed && _currentSpeedChange < 0)
             {
-                _rigidbody.velocity = _direction * _normalSpeed;
+                _rigidbody.velocity = _normalSpeed * _direction;
             }
-            else if(_rigidbody.velocity.magnitude > _currentMaxSpeed)
+            else if(_rigidbody.velocity.x < -_currentMaxSpeed && _currentSpeedChange > 0)
             {
                 _rigidbody.velocity = _direction * _currentMaxSpeed;
             }
+        }
+
+        public void SetSpeedToZero()
+        {
+            _currentMaxSpeed = 0;
+            _normalSpeed = 0;
+            _currentSpeedChange = _speedChange;
         }
 
         public void SpeedUp()
@@ -55,6 +62,7 @@ namespace Trell.Unavinar_TZ.Player
         public void PushBack()
         {
             _rigidbody.velocity = -_direction * _pushModifier;
+            _currentSpeedChange = _speedChange;
         }
     }
 }

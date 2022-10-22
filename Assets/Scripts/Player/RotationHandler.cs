@@ -11,7 +11,7 @@ namespace Trell.Unavinar_TZ.Player
         [SerializeField] private FormChecker _formChecker;
         [SerializeField] private Movement _movement;
         [SerializeField] private BlockContainer _blockContainer;
-        [SerializeField] private PopUpSpawner _spawner;
+        [SerializeField] private ScoreCounter _scoreCounter;
 
         private void OnEnable()
         {
@@ -28,10 +28,13 @@ namespace Trell.Unavinar_TZ.Player
             if (_formChecker.CheckForm())
             {
                 _movement.SpeedUp();
+                _scoreCounter.TurnOnCounting();
                 _blockContainer.PlayVisualEffects();
-                _spawner.PopUp("+1");
+
                 return;
             }
+
+            _scoreCounter.TurnOffCounting();
             _blockContainer.StopVisualEffects();
             _movement.ResetSpeed();
         }

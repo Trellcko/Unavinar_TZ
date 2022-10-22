@@ -14,9 +14,9 @@ namespace Trell.Unavinar_TZ.Gate
 
         public void OnTriggerExit(Collider other)
         {
-            if(other.CompareTag(_playerTag))
+            if (other.CompareTag(_playerTag))
             {
-                print("eXITED");
+                print("|Gate| " + other.name);
                 PlayerExited?.Invoke();
             }
         }

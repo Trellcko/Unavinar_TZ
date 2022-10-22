@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Trell.Unavinar_TZ.UI
 {
-	public class PopUpSpawner : MonoBehaviour
+	public class PopUpTextSpawner : MonoBehaviour
 	{
 
 		[SerializeField] private PopUpText _popUpText;

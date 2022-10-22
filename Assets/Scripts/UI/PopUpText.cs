@@ -53,8 +53,6 @@ namespace Trell.Unavinar_TZ.UI
                 float y = Mathf.Lerp(startY, _yEndValue, percent);
                 float alpha = Mathf.Lerp(1, 0, percent);
 
-
-
                 transform.LookAt(_cameraTransform.position);
                 transform.position = new Vector3(startPoint.position.x, y, startPoint.position.z);
 
