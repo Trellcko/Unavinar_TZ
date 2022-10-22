@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Trell.Unavinar_TZ.Player
+namespace Trell.Unavinar_TZ.Core
 {
-	public class BlockContainer : MonoBehaviour
-	{
+    public class BlockContainer : MonoBehaviour
+    {
         public int Count => _blocks.Count;
-     
+
         private List<GameObject> _blocks = new List<GameObject>();
 
         private List<ParticleSystem> _blocksParticles = new List<ParticleSystem>();
@@ -20,8 +20,8 @@ namespace Trell.Unavinar_TZ.Player
         }
 
         public void PlayVisualEffects()
-        { 
-            foreach(var particle in _blocksParticles)
+        {
+            foreach (var particle in _blocksParticles)
             {
                 particle.Play();
             }

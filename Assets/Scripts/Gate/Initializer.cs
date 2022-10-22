@@ -10,9 +10,11 @@ namespace Trell.Unavinar_TZ.Gate
 		[SerializeField] private GameData _gameData;
 		[SerializeField] private GameObject _innerBlock;
 		[SerializeField] private GameObject _outerBlock;
+        [SerializeField] private BlockContainer _blockContainer;
 
 		[SerializeField] private Transform _startPoint;
 		[SerializeField] private Transform _gamePlay;
+        
 
 		[NonReorderable]
 		[SerializeField] private List<GateData> _gateData;
@@ -28,7 +30,7 @@ namespace Trell.Unavinar_TZ.Gate
 
 			for(int  i = 0; i < _gateData.Count; i++)
             {
-                Transform gate = SpawnGateGO(i);
+                BlockContainer gate = SpawnGate(i);
 
                 for (int z = -maxz; z <= maxz; z++)
                 {
@@ -41,8 +43,8 @@ namespace Trell.Unavinar_TZ.Gate
                             continue;
                         }
 
-                        position += gate.position;
-                        SpawnBlock(maxz, maxY, gate, position);
+                        position += gate.transform.position;
+                        gate.Add(SpawnBlock(maxz, maxY, gate.transform, position));
                     }
                 }
             }
@@ -62,14 +64,11 @@ namespace Trell.Unavinar_TZ.Gate
             return Instantiate(block, spawnPosition, Quaternion.identity, parent);
         }
 
-        private Transform SpawnGateGO(int i)
+        private BlockContainer SpawnGate(int i)
         {
-            GameObject gate = new GameObject("Gate (" + i + ")");
+            Vector3 spawnPosition = new Vector3(_startPoint.position.x - _gameData.DistanceBetweenGates * (i + 1), 0, 0);
 
-            gate.transform.parent = _gamePlay;
-
-            gate.transform.position = new Vector3(_startPoint.position.x - _gameData.DistanceBetweenGates * (i + 1), 0, 0);
-            return gate.transform;
+            return Instantiate(_blockContainer, spawnPosition, Quaternion.identity, _gamePlay);
         }
     }
 }

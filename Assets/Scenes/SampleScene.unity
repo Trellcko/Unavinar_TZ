@@ -170,6 +170,7 @@ MonoBehaviour:
   _gameData: {fileID: 11400000, guid: 82cb20aa2a4e4954c93307874f711d55, type: 2}
   _innerBlock: {fileID: 4584219332119693546, guid: 332783dfd056b4a4faf1156835c42423, type: 3}
   _outerBlock: {fileID: 1717576593263342466, guid: 9776debb744f661409ffbfb0e3ed1ef8, type: 3}
+  _blockContainer: {fileID: 8672426688331796209, guid: 9366ac16284604f43918e2fa28785951, type: 3}
   _startPoint: {fileID: 1896417742}
   _gamePlay: {fileID: 1007247941}
   _gateData:
@@ -181,7 +182,698 @@ MonoBehaviour:
     - {x: 0, y: 4, z: 0}
     - {x: 0, y: 2, z: -1}
   - EmptyBlocks:
-    - {x: 0, y: 1, z: 2}
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
+  - EmptyBlocks:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: 2, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 4, z: 0}
+    - {x: 0, y: 2, z: -1}
 --- !u!1 &245540324
 GameObject:
   m_ObjectHideFlags: 0
@@ -239,7 +931,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 416653846}
   m_LocalRotation: {x: 0, y: -0.8160367, z: 0, w: 0.5780001}
-  m_LocalPosition: {x: 8.1896515, y: 1.2124356, z: 2.1621816}
+  m_LocalPosition: {x: 9.214893, y: 1.9215373, z: 1.6584623}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -416,6 +1108,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 2030141145}
   - {fileID: 905858405}
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -433,7 +1126,7 @@ GameObject:
   - component: {fileID: 905858407}
   - component: {fileID: 905858406}
   m_Layer: 0
-  m_Name: Canvas
+  m_Name: OverlayCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -454,7 +1147,7 @@ RectTransform:
   - {fileID: 1268710701}
   - {fileID: 1722343480}
   m_Father: {fileID: 601956194}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -490,12 +1183,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1080, y: 1900}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -555,6 +1248,52 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1195495592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1195495594}
+  - component: {fileID: 1195495593}
+  m_Layer: 0
+  m_Name: PopUpTextSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1195495593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195495592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb4172aa35540fa459d65206d0c871c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _popUpText: {fileID: 4964807992145985727, guid: 9bfed8590a5c8bc44bf969cb6c3b5f3b, type: 3}
+  point: {fileID: 1518760305}
+--- !u!4 &1195495594
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195495592}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.03045, y: 1.213193, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1268710700
 GameObject:
   m_ObjectHideFlags: 0
@@ -590,7 +1329,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.6, y: 0.6}
+  m_AnchorMax: {x: 0.58, y: 0.58}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -702,6 +1441,37 @@ MonoBehaviour:
   - {x: -1, y: 2, z: 0}
   - {x: 0, y: 2, z: -1}
   _startPoint: {fileID: 1896417742}
+--- !u!1 &1518760304
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1518760305}
+  m_Layer: 0
+  m_Name: SpawnTextPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1518760305
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518760304}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1896417742}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1655600325
 GameObject:
   m_ObjectHideFlags: 0
@@ -879,7 +1649,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687258581}
   m_LocalRotation: {x: -0, y: -0.8160367, z: -0, w: 0.5780001}
-  m_LocalPosition: {x: 8.1896515, y: 1.2124356, z: 2.1621816}
+  m_LocalPosition: {x: 9.214893, y: 1.9215373, z: 1.6584623}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1131,13 +1901,13 @@ MonoBehaviour:
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 1
   m_LookaheadIgnoreY: 0
-  m_XDamping: 1
-  m_YDamping: 1
-  m_ZDamping: 1
+  m_XDamping: 2
+  m_YDamping: 0
+  m_ZDamping: 2
   m_TargetMovementOnly: 1
-  m_ScreenX: 0.15
-  m_ScreenY: 0.8
-  m_CameraDistance: 3.5
+  m_ScreenX: 0.393
+  m_ScreenY: 0.887
+  m_CameraDistance: 4.3
   m_DeadZoneWidth: 0
   m_DeadZoneHeight: 0
   m_DeadZoneDepth: 0
@@ -1158,7 +1928,23 @@ MonoBehaviour:
   m_MaximumFOV: 60
   m_MinimumOrthoSize: 1
   m_MaximumOrthoSize: 5000
---- !u!1 &1896417741
+--- !u!4 &1896417742 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9158695271245817063, guid: e8c22ac1658bd524a9ec490388381096, type: 3}
+  m_PrefabInstance: {fileID: 9158695273141185833}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1896417750 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9158695271245817087, guid: e8c22ac1658bd524a9ec490388381096, type: 3}
+  m_PrefabInstance: {fileID: 9158695273141185833}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e87e5607a039b849bfa81265ed78019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2030141144
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1166,155 +1952,113 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1896417742}
-  - component: {fileID: 1896417744}
-  - component: {fileID: 1896417743}
-  - component: {fileID: 1896417745}
-  - component: {fileID: 1896417746}
-  - component: {fileID: 1896417747}
-  - component: {fileID: 1896417748}
-  - component: {fileID: 1896417749}
-  - component: {fileID: 1896417750}
+  - component: {fileID: 2030141145}
+  - component: {fileID: 2030141149}
+  - component: {fileID: 2030141148}
+  - component: {fileID: 2030141147}
+  - component: {fileID: 2030141146}
   m_Layer: 0
-  m_Name: Player
+  m_Name: WorldCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1896417742
-Transform:
+  m_IsActive: 0
+--- !u!224 &2030141145
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1896417741}
+  m_GameObject: {fileID: 2030141144}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.24, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1007247941}
-  m_RootOrder: 1
+  m_Father: {fileID: 601956194}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1896417743
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &2030141146
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1896417741}
+  m_GameObject: {fileID: 2030141144}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 671066154afd55c46964329bbbd92ac2, type: 3}
+  m_Script: {fileID: 11500000, guid: fb4172aa35540fa459d65206d0c871c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotatePower: 500
---- !u!114 &1896417744
+  _popUpText: {fileID: 8248902521925332452, guid: 1967db0f7ad99e24da2089f68ccc0c31, type: 3}
+  point: {fileID: 1518760305}
+--- !u!114 &2030141147
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1896417741}
+  m_GameObject: {fileID: 2030141144}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47a33ffc72416cc4e96bd2349db06a98, type: 3}
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _draggingPanel: {fileID: 1722343481}
-  _rotator: {fileID: 1896417743}
---- !u!114 &1896417745
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1896417741}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5ebfb6e633d3a4459968574e11d67f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _normalSpeed: 0.5
-  _speedUp: 3
-  _speedChange: 1
-  _pushModifier: 1
---- !u!54 &1896417746
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1896417741}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1896417747
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1896417741}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4658632748087f447b937ca7bc903ca6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _movement: {fileID: 1896417745}
-  _blockContainer: {fileID: 1896417750}
-  _pushBlockPower: 50
---- !u!114 &1896417748
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1896417741}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86eb27531884a6e42a2986b9c6333547, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _gameData: {fileID: 11400000, guid: 82cb20aa2a4e4954c93307874f711d55, type: 2}
-  _playerBlockLayerMask:
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 64
-  _blockContainer: {fileID: 1896417750}
---- !u!114 &1896417749
+    m_Bits: 4294967295
+--- !u!114 &2030141148
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1896417741}
+  m_GameObject: {fileID: 2030141144}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5671cd48e74ba14fb7c8d3e21ff6aa2, type: 3}
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotater: {fileID: 1896417743}
-  _formChecker: {fileID: 1896417748}
-  _movement: {fileID: 1896417745}
---- !u!114 &1896417750
-MonoBehaviour:
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1080, y: 1900}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 1
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &2030141149
+Canvas:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1896417741}
+  m_GameObject: {fileID: 2030141144}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e87e5607a039b849bfa81265ed78019, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  serializedVersion: 3
+  m_RenderMode: 1
+  m_Camera: {fileID: 1687258584}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &2138677391
 GameObject:
   m_ObjectHideFlags: 0
@@ -1430,3 +2174,80 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
+--- !u!1001 &9158695273141185833
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1007247941}
+    m_Modifications:
+    - target: {fileID: 9158695271245817060, guid: e8c22ac1658bd524a9ec490388381096, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 9158695271245817063, guid: e8c22ac1658bd524a9ec490388381096, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9158695271245817063, guid: e8c22ac1658bd524a9ec490388381096, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 9158695271245817063, guid: e8c22ac1658bd524a9ec490388381096, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9158695271245817063, guid: e8c22ac1658bd524a9ec490388381096, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9158695271245817063, guid: e8c22ac1658bd524a9ec490388381096, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9158695271245817063, guid: e8c22ac1658bd524a9ec490388381096, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9158695271245817063, guid: e8c22ac1658bd524a9ec490388381096, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9158695271245817063, guid: e8c22ac1658bd524a9ec490388381096, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9158695271245817063, guid: e8c22ac1658bd524a9ec490388381096, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9158695271245817063, guid: e8c22ac1658bd524a9ec490388381096, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9158695271245817063, guid: e8c22ac1658bd524a9ec490388381096, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9158695271245817080, guid: e8c22ac1658bd524a9ec490388381096, type: 3}
+      propertyPath: _speedUp
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 9158695271245817080, guid: e8c22ac1658bd524a9ec490388381096, type: 3}
+      propertyPath: _speedChange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9158695271245817081, guid: e8c22ac1658bd524a9ec490388381096, type: 3}
+      propertyPath: _draggingPanel
+      value: 
+      objectReference: {fileID: 1722343481}
+    - target: {fileID: 9158695271245817082, guid: e8c22ac1658bd524a9ec490388381096, type: 3}
+      propertyPath: _pushBlockPower
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 9158695271245817084, guid: e8c22ac1658bd524a9ec490388381096, type: 3}
+      propertyPath: _spawner
+      value: 
+      objectReference: {fileID: 1195495593}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e8c22ac1658bd524a9ec490388381096, type: 3}

@@ -14,6 +14,8 @@ namespace Trell.Unavinar_TZ.Player
         [Min(0.1f)]
         [SerializeField] private float _pushModifier = 0.25f;
 
+
+        private float _currentSpeedChange;
         private float _currentMaxSpeed;
         private Vector3 _direction = Vector3.left;
         private Rigidbody _rigidbody;
@@ -21,13 +23,19 @@ namespace Trell.Unavinar_TZ.Player
         private void Awake()
         {
             _rigidbody = GetComponent<Rigidbody>();
+            _currentSpeedChange = -_speedChange;
             ResetSpeed();
         }
 
         private void FixedUpdate()
         {
             _rigidbody.AddForce(_direction * _speedChange * Time.fixedDeltaTime, ForceMode.VelocityChange);
-            if(_rigidbody.velocity.magnitude > _currentMaxSpeed)
+
+            if (_rigidbody.velocity.magnitude < _normalSpeed)
+            {
+                _rigidbody.velocity = _direction * _normalSpeed;
+            }
+            else if(_rigidbody.velocity.magnitude > _currentMaxSpeed)
             {
                 _rigidbody.velocity = _direction * _currentMaxSpeed;
             }
@@ -36,10 +44,12 @@ namespace Trell.Unavinar_TZ.Player
         public void SpeedUp()
         {
             _currentMaxSpeed = _speedUp;
+            _currentSpeedChange = _speedChange;
         }
         public void ResetSpeed()
         {
             _currentMaxSpeed = _normalSpeed;
+            _currentSpeedChange = -_speedChange;
         }
 
         public void PushBack()

@@ -55,6 +55,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GateBlockParticleSystem
       objectReference: {fileID: 0}
+    - target: {fileID: 8748235748966018554, guid: db62e1075851b7944b3fcd820f33aa86, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db62e1075851b7944b3fcd820f33aa86, type: 3}
 --- !u!1001 &5453959628005715152
@@ -128,7 +132,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 22846f51c754aa341bc871b6e6c65158, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7914671686129050127, guid: 161c376abe5f1354eb4086a548458299, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 161c376abe5f1354eb4086a548458299, type: 3}
 --- !u!4 &2062048721747372344 stripped
 Transform:

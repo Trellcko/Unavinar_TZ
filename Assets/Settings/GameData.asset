@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <CubeSize>k__BackingField: 0.2
   <MaxFormSize>k__BackingField: {x: 7, y: 9}
-  <DistanceBetweenGates>k__BackingField: 10
+  <DistanceBetweenGates>k__BackingField: 13

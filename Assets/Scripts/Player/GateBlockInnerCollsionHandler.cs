@@ -1,10 +1,11 @@
 using System.Collections.Generic;
+using Trell.Unavinar_TZ.Core;
 using Trell.Unavinar_TZ.Gate.Block;
 using UnityEngine;
 
 namespace Trell.Unavinar_TZ.Player
 {
-	[AddComponentMenu("Player (Gate Block Inner Collision Handler)")]
+    [AddComponentMenu("Player (Gate Block Inner Collision Handler)")]
 	public class GateBlockInnerCollsionHandler : MonoBehaviour
 	{
         [SerializeField] private Movement _movement;
@@ -57,8 +58,10 @@ namespace Trell.Unavinar_TZ.Player
 
                     if (_isPushedThisFrame == false)
                     {
+                        _movement.ResetSpeed();
                         _movement.PushBack();
                         _isPushedThisFrame = true;
+                        _blockContainer.StopVisualEffects();
                     }
                 }
             }

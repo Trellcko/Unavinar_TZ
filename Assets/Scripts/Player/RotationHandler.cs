@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using Trell.Unavinar_TZ.Core;
+using Trell.Unavinar_TZ.UI;
 using UnityEngine;
 
 namespace Trell.Unavinar_TZ.Player
@@ -9,6 +11,7 @@ namespace Trell.Unavinar_TZ.Player
         [SerializeField] private FormChecker _formChecker;
         [SerializeField] private Movement _movement;
         [SerializeField] private BlockContainer _blockContainer;
+        [SerializeField] private PopUpSpawner _spawner;
 
         private void OnEnable()
         {
@@ -25,7 +28,8 @@ namespace Trell.Unavinar_TZ.Player
             if (_formChecker.CheckForm())
             {
                 _movement.SpeedUp();
-                _blockContainer.PlayVisualEffects();  
+                _blockContainer.PlayVisualEffects();
+                _spawner.PopUp("+1");
                 return;
             }
             _blockContainer.StopVisualEffects();

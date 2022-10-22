@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PlayerBlock
   - GateBlockInner
+  - Gate
   layers:
   - Default
   - TransparentFX

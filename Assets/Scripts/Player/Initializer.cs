@@ -4,7 +4,7 @@ using Trell.Unavinar_TZ.Player.Block;
 
 namespace Trell.Unavinar_TZ.Player
 {
-	[AddComponentMenu("Player Initializer")]
+    [AddComponentMenu("Player Initializer")]
 	public class Initializer : MonoBehaviour
 	{
 		[SerializeField] private GameObject _cubePrefab;

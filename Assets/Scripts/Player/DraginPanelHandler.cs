@@ -1,10 +1,10 @@
-using System.Collections.Generic;
+using Trell.Unavinar_TZ.Core;
 using Trell.Unavinar_TZ.UI;
 using UnityEngine;
 
 namespace Trell.Unavinar_TZ.Player
 {
-	[AddComponentMenu("Player Draging Panel Handler")]
+    [AddComponentMenu("Player (Draging Panel Handler)")]
 	public class DraginPanelHandler : MonoBehaviour
 	{
 		[SerializeField] private DragingPanel _draggingPanel;
