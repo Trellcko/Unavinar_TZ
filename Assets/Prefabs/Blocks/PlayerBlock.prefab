@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1506451108712927845}
     m_Modifications:
+    - target: {fileID: 905613048556380028, guid: def3a19fa7c0a0d4498d281682cf67e4, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1996957782137760794, guid: def3a19fa7c0a0d4498d281682cf67e4, type: 3}
       propertyPath: m_Name
       value: CubeParticle

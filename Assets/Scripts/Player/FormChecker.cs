@@ -4,33 +4,21 @@ using UnityEngine;
 
 namespace Trell.Unavinar_TZ.Player
 {
-	public class FormChecker : MonoBehaviour
-	{
+    public class FormChecker : MonoBehaviour
+    {
         [SerializeField] private GameData _gameData;
         [SerializeField] private LayerMask _playerBlockLayerMask;
+        [SerializeField] private BlockContainer _blockContainer;
 
-		private List<Transform> _blocks =  new List<Transform>();
-        private RaycastHit[] _hits =  new RaycastHit[1];
-
-		public void AddBlock(Transform block)
+        public bool CheckForm()
         {
-			_blocks.Add(block);
-        }
-
-		public void RemoveBlock(Transform block)
-        {
-			_blocks.Remove(block);
-        }
-
-		public bool CheckForm()
-        {
-            foreach (Transform block in _blocks)
+            for (int i = 0; i < _blockContainer.Count; i++)
             {
-                Ray ray = new Ray(block.position, Vector3.left);
+                Ray ray = new Ray(_blockContainer[i].transform.position, Vector3.left);
 
                 if (Physics.Raycast(ray, _gameData.DistanceBetweenGates, _playerBlockLayerMask))
                 {
-                    Debug.DrawRay(block.position, Vector3.left * _gameData.DistanceBetweenGates, Color.red, 100f);
+                    Debug.DrawRay(_blockContainer[i].transform.position, Vector3.left * _gameData.DistanceBetweenGates, Color.red, 100f);
 
                     return false;
                 }

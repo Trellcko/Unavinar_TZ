@@ -8,6 +8,7 @@ namespace Trell.Unavinar_TZ.Player
 	public class GateBlockInnerCollsionHandler : MonoBehaviour
 	{
         [SerializeField] private Movement _movement;
+        [SerializeField] private BlockContainer _blockContainer;
         [SerializeField] private float _pushBlockPower;
 
         private bool _isPushedThisFrame = false;
@@ -18,6 +19,16 @@ namespace Trell.Unavinar_TZ.Player
         {
             foreach(var collisionEvents in _collisionEvents)
             {
+                collisionEvents.GateBlockInnerCollided += OnGateBlockInnerCollided;
+            }
+        }
+
+        private void Start()
+        {
+            for (int i = 0; i < _blockContainer.Count; i++)
+            {
+                Block.CollisionEvents collisionEvents = _blockContainer[i].GetComponent<Block.CollisionEvents>();
+                _collisionEvents.Add(collisionEvents);
                 collisionEvents.GateBlockInnerCollided += OnGateBlockInnerCollided;
             }
         }
@@ -35,18 +46,7 @@ namespace Trell.Unavinar_TZ.Player
             _isPushedThisFrame = false;
         }
 
-        public void AddCollisionEvents(Block.CollisionEvents collisionEvent)
-        {
-            _collisionEvents.Add(collisionEvent);
-            collisionEvent.GateBlockInnerCollided += OnGateBlockInnerCollided;
-        }
-
-        public void RemoveEvent(Block.CollisionEvents collisionEvent)
-        {
-            _collisionEvents.Remove(collisionEvent);
-            collisionEvent.GateBlockInnerCollided -= OnGateBlockInnerCollided;
-        }
-
+      
         private void OnGateBlockInnerCollided(Vector3 normal, GameObject other)
         {
             if (other.TryGetComponent(out Pusher gateBlock))

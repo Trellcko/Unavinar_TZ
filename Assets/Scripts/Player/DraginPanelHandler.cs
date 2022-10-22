@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Trell.Unavinar_TZ.UI;
 using UnityEngine;
 
@@ -8,6 +9,8 @@ namespace Trell.Unavinar_TZ.Player
 	{
 		[SerializeField] private DragingPanel _draggingPanel;
 		[SerializeField] private Rotater _rotator;
+        [SerializeField] private BlockContainer _blockContainer;
+        [SerializeField] private Movement _movement;
 
         private float _previousX = 0;
 
@@ -15,6 +18,12 @@ namespace Trell.Unavinar_TZ.Player
         {
             _draggingPanel.DragBegined += OnDragBegined;
             _draggingPanel.DragEnded += OnEndDrag;
+        }
+
+        private void OnDisable()
+        {
+            _draggingPanel.DragBegined -= OnDragBegined;
+            _draggingPanel.DragEnded -= OnEndDrag;
         }
 
         private void OnEndDrag()
@@ -25,6 +34,8 @@ namespace Trell.Unavinar_TZ.Player
         private void OnDragBegined()
         {
             _rotator.StopRotateToNearesSide();
+            _movement.ResetSpeed();
+            _blockContainer.StopVisualEffects();
         }
 
         public void Update()
